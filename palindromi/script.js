@@ -12,7 +12,7 @@ if (risulato == 1) {
 function invertiParola(str) {
     let strInversa = str.split('').reverse().join('');
 
-    if (parola == strInversa) {
+    if (str == strInversa) {
         return 1;
     } else {
         return 0;
